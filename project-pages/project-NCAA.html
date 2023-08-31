@@ -1,0 +1,93 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+     <link rel="icon" href="../assets/images/avater.jpg" />
+     <title>NCAA March Madness Competition</title>
+    <meta name="description" content="A portfolio template for the Unemployables community.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="../js/script.js"></script>
+	</head>
+	<body>
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+        <span class="nav-title">Back to Portfolio Page</span>
+
+        <a class="button" href="mailto:whitevans.eth@gmail.com">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+    <div id="main-content">
+
+      <div id="project-header">
+        <div class="main-title">NCAA Basketball March Mania 2023</div>
+        <div class="body-text">The goal of the project is training model for probability prediction of March Madness Tournament game results
+            based on previous game history in NCAA league.</div>
+        <image class="project-header-image" src="../assets/images/NCAA/bracket.avif">
+      </div>
+
+      <div id="project-details">
+        <div class="subheader-text">Project Details / Background</div>
+        <div class="project-details-content">
+          <div class="body-text">
+              The NCAA Division I men's basketball tournament, branded as NCAA March Madness and commonly called March Madness. The tournament consists of 68 teams
+              and was first conducted in 1939. 68 teams were competing in seven rounds of a single-elimination bracket.
+              The NCAA project has been ongoing for 6 years since 2018. Previous analysts and researchers have
+          contributed many important findings and insights through Exploratory Data Analysis and Statistical Analysis.
+              Based on previous results and stats, I selected several important features that are correlated with prediction results.
+              </div>
+            <img src="../assets/images/NCAA/features.png" class="gallery-image">
+              <span class="image-caption">Related Features</span>
+             <img src="../assets/images/NCAA/dataset.png" class="gallery-image">
+              <span class="image-caption">Processed dataset sample</span>
+
+          <div class="body-text">Model evaluation was then performed using the processed dataset. And Xgboost has been found to arrive to the
+          most optimal results using previous years' results as K-fold cross-validation. Finally, the model predicted the results for 2023 and it
+          achieves a Brier Score of 0.18795 (Baseline: 0.25). Codes could be find on <a href="https://github.com/Momowangg/Portfolio/tree/main/2023%20March%20Madness", target="_blank">Github</a>.</div>
+        </div>
+          <div class="body-text">Credit : <a href="https://www.kaggle.com/competitions/march-machine-learning-mania-2023/overview", target="_blank">March Machine Learning Mania 2023</a></div>
+      </div>
+
+      <div id="project-gallery">
+        <div class="subheader-text">Image Gallery</div>
+        <div class="project-gallery-content">
+
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/NCAA/importance.png" class="gallery-image">
+              <span class="image-caption">XGBoost Importance Plot</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/NCAA/visualization.png" class="gallery-image">
+              <span class="image-caption">XGBoost Explanation Plot</span>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+
+      <a class="icon-link" target="_blank" href="https://github.com/Momowangg">
+        <image src="../assets/icons/github.svg" class="footer-icon"/>
+      </a>
+
+      <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/yuqiao-mike-wang/">
+        <image src="../assets/icons/linkedin.svg" class="footer-icon"/>
+      </a>
+
+      <a class="icon-link" href="mailto:yuqiao.wang@vanderbilt.edu">
+        <image src="../assets/icons/mail.svg" class="footer-icon"/>
+      </a>
+    </div>
+
+	</body>
+</html>
