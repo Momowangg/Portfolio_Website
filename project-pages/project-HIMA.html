@@ -56,10 +56,24 @@ using the federal-level data range from 2019 to 2022.
               <span class="image-caption">Dataset processing example</span>
         </div>
           <div class="project-details-content">
-            Data cleaning was performed using Python Pandas looking for NULL and Missing Values in the dataset.
+              Data cleaning was performed using Python Pandas looking for NULL and Missing Values in the dataset.
               The data are then stored in AWS cloud S3 storage and connected to EC2 using Secure Shell Protocol(SSH).
               Four datasets are imported into Athena database, and query transformation and aggregation were performed to output
               useful data for further analysis.
+              <div class="project-details-content">
+              Main numbers taking into accounts are individual/family rate, copayment amount/percentage, and deductible amount/percentage.
+              After data analysis and visualization, some clear patterns were identified: <br>
+                  <br>
+                  - Individual rates from all age groups are increasing over the past few years.
+                  Individual rate for children and teenagers are growing most, much higher growth rate than other age groups;
+                  <br>
+                  - dental-only plans have a more dichotomous distribution where higher rated plans tend to increase over time, while lower-rated plans tend to decrease over time;
+                  <br>
+                  - West Virginia has the highest average Federal Health Insurance Individual rate; Alaska has the highest average Federal Health Insurance Family rate;
+                  <br>
+                  - copay after deductible in general requires much fewer copay than with deductibles. And majority of insurances provides copay
+                  without deductible has copay amount lower than 100 dollars.
+              </div>
             </div>
           <div>Part of the analysis process and findings:</div>
           <div class="project-gallery-content">

@@ -139,6 +139,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 34px;
+  text-indent: 25px;
 }
 
     /* Project Gallery */
